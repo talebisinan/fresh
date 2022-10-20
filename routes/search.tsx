@@ -20,7 +20,7 @@ export default function Page({ data }: PageProps<Data>) {
   const { results, query } = data;
   return (
     <div className="grid gap-4">
-      <form className="$1 grid gap-4">
+      <form className="grid gap-4">
         <input
           type="text"
           name="q"
